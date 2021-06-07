@@ -32,7 +32,11 @@
     <input id="txtURL" type="text" value="www.google.com" autofocus>
   </div>
   <div class="box">
-    <button id="btnGo">Submit</button>
+    <button id="btnGo">Go</button>
+  </div>
+  <div class="box">
+    <span>Server:</span>
+    <select id="selNode"></select>
   </div>
   <div class="box" id="list">
   </div>
@@ -112,14 +116,14 @@
     const SITE_LIST = [
       ['google', ''],
       ['youtube', ''],
-      ['twitter', 'twitter.com/'],
+      ['twitter', 'twitter.com/google'],
       ['flickr', ''],
       ['quora', 'www.quora.com/topic/JavaScript-programming-language'],
       ['twitch', 'www.twitch.tv/'],
       ['reddit', ''],
-      ['wiki', 'www.wikipedia.org/'],
+      ['wiki', 'zh.wikipedia.org/'],
       ['gist', 'gist.github.com/'],
-      ['facebook', 'facebook.com/'],
+      ['facebook', 'facebook.com/Google/'],
       ['blogger', ''],
     ]
 
